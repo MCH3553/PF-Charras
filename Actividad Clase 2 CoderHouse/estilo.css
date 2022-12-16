@@ -1,44 +1,68 @@
-*	{margin: 0}
+* {margin: 0}
 
-body {background-image: url(background.jpg);}
+body {background-image: url(background.jpg);
+      font-family: sans-serif}
 
-header{ 
-    margin: 0px;
-    width: 100%;
-    background: hsl(0, 0%, 0%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;}
+      header{ display: flex;
+        margin: 0px;
+        width: 100%;
+        background: black;
+        justify-content: space-between;
+        align-items: center}
 
 .menu ul {display: flex;
         padding: 25px 25px;
         list-style: none;
-        align-items: center;
-    }
+        align-items: center; justify-content: end;}
 
-.menu a {color: white;
+.menu li a {display: block;
+         color: white;
          text-decoration: none;
-         padding: 0px 12px;
-         transition: 0.5s;
-        }
+         padding: 0px 15px}
 
-.menu li a:hover { color: grey}
+.menu li a:hover { color: grey;
+                   transition: 0.5s}
    
+.imgopciones { width: 30px;
+               height: 30px;
+               padding: 15px 0px}
 
-header label:hover {background:grey;
-                    cursor: pointer}
 
-.opciones, .imglogo { display: none;
-                        width: 30px;
-                        height: 30px;
-                        padding: 0px 20px}
+header label {  display: none;
+                width: 30px;
+                height: 68px;
+                cursor: pointer;
+                border-left: 1px solid #fff;
+                order: 1;
+                padding: 0px 10px}
+
+header label:hover{ background: grey}
+    
+#opciones {display: none;}
 
 .contenido {text-align: center;
-            padding: 20px 0px;
-
-}
+            padding: 20px 0px}
 
 .destacado-con-cursor:hover {color: red;}
 
 .logo { color: white;
-    padding: 0px 25px;}
+    padding: 0px 25px}
+
+
+    @media (max-width:768px) {
+        
+          header label {display: block; border-left: 0px; border-right: 1px solid white}  
+          .menu {position: absolute; background: rgba(10, 10, 10, 0.85);  width: 70%;margin-left: -70%; transition: all 0.5s;}
+          .menu ul {flex-direction: column}
+          header {display: block;}
+          .logo {text-align: center; }
+          .menu li {padding: 10px}
+          #opciones:checked ~ .menu {margin: 0;}
+          }
+
+          
+  
+
+
+
+
