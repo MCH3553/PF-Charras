@@ -1,4 +1,4 @@
-* {margin: 0}
+* {margin: 0; padding: 0;}
 
 body {background-image: url(background.jpg);
       font-family: sans-serif}
@@ -40,39 +40,44 @@ header label:hover{ background: grey}
     
 #opciones {display: none;}
 
-.carrousel {width: 100%; 
-  height: auto;
-  margin: 0px auto;
-  overflow: hidden;
-  animation: slide 15s infinite alternate ease-in-out}
-
-  .carrousel ul {
-    display: flex;
-    width: 300%; 
-    padding: 0%}
-
-
-.carrousel li {
-      list-style: none; 
-      width: ;}
-
-.carrousel img{ width: 100%;
-      height: 480px;
-      overflow: hidden}
-
-      
-
-@keyframes slide {
-0% {margin-left: 0;}
-25%{margin-left: 0;}
-
-35%{margin-left: -100;}
-60%{margin-left: -100;}
-
-70%{margin-left: -200;}
-95%{margin-left: -200;}
+.carrousel {
+	width: 100%;
+    height: 480px;
+	margin: none;
+	overflow: hidden;
 }
 
+.carrousel ul {
+	display: flex;
+	padding: 0;
+	width: 250%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.carrousel li {
+	width: 50%;
+	list-style: none;
+}
+
+.carrousel img {
+	width: 100%;
+      height: 480px;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -50%;}
+	45% {margin-left: -50%;}
+	
+	50% {margin-left: -100%;}
+	70% {margin-left: -100%;}
+	
+	75% {margin-left: -150%;}
+	100% {margin-left: -150%;}
+}
 
 .contenido {text-align: center;
             padding: 20px 0px}
