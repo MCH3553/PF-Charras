@@ -52,7 +52,7 @@ header label:hover{ background: grey}
 	padding: 0;
 	width: 200%;
 	
-	animation: slide 17s infinite  alternate ease-in-out}
+	animation: slide 12s infinite  alternate ease-in-out}
 
 .carrousel li {
 	width: 50%;
