@@ -3,43 +3,6 @@
 body {background-image: url(../imagenes/fondo.png);
       font-family: verdana}
 
-      header{ display: flex;
-        margin: 0px;
-        width: 100%;
-        background: black;
-        justify-content: space-between;
-        align-items: center; }
-
-.menu ul {display: flex;
-        padding: 25px 25px;
-        list-style: none;
-        align-items: center; justify-content: end}
-
-.menu li a {display: block;
-         color: white;
-         text-decoration: none;
-         padding: 0px 15px}
-
-.menu li a:hover { color: aquamarine;
-                   transition: 0.5s}
-   
-.imgopciones { width: 30px;
-               height: 30px;
-               margin: 15px 0px}
-
-
-header {border-bottom: 1px solid #efefef;}
-
-
-header label {  display: none;
-                width: 30px;
-                height: 68px;
-                cursor: pointer;
-                border-left: 1px solid #fff;
-                order: 1;
-                padding: 0px 10px}
-
-header label:hover{ background: grey}
     
 #opciones {display: none;}
 
@@ -67,14 +30,6 @@ header label:hover{ background: grey}
       height: 480px;
 }
 
-
-
-.logo {
-      text-align: center;
-      font-size: 2.2em; margin-bottom: 1em;
-     
-     
-  }
 
 @keyframes slide {
 	0% {margin-left: 0;}
@@ -109,12 +64,7 @@ header label:hover{ background: grey}
 
 .destacado-con-cursor:hover {color: red;}
 
-.headerlogo { color: white;
-      display: flex;
-      padding: 0px 0px; 
-      height: 80px;
-      width: 100%;
-      justify-content: center}
+
 
 .piedepagina { width: 100%;
                background: black;
@@ -249,23 +199,19 @@ header label:hover{ background: grey}
                         color: #fff;
                         transition: background-color 0.7s ease-out;
                         outline: 0;}
-      
+
+
+
+
+
+.options {width: 30px; height: 30px;}
+
+.headerlogo {width: 150px; height: 70px;}
 
 
 @media (max-width:768px) {
         
-          header label {display: block; border-left: 0px; border-right: 1px solid white}  
-          .menu {position: absolute; background: rgba(10, 10, 10, 0.85);  width: 70%;margin-left: -70%; transition: all 0.5s}
-          .menu ul {flex-direction: column}
-          header {display: block}
-          .menu li {padding: 10px}
-          #opciones:checked ~ .menu {margin: 0;}
-          .logo { color: white;
-            padding: 0px 0px; 
-            height: 80px;
-            display: block;
-            width: 68px;
-            height: 68px}
+          
 
             .contenido {text-align: center;
                   color: #efefef; 
