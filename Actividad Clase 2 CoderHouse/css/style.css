@@ -214,6 +214,8 @@ body {background-image: url(../imagenes/fondo.png);
 
 .tituloconsultas {margin-bottom: 30px;}
 
+.contacto {text-align: center; margin: 1em 0em 1.5em 0em;}
+
 
 @media (max-width:768px) {
         
