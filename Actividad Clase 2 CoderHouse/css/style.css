@@ -52,11 +52,11 @@ body {background-image: url(../imagenes/fondo.png);
 
 .programa ul li {margin-top: 0.5em; list-style: none;}
 .programa {margin: 2em 0em 10em 0em;}
-.contenido h1 {margin: 2em 0em 1em 0em;}
-.contenido h2 {margin: 2.5em 0em 1em 0em}
+.contenido h1 {margin: 2em 0em 1em 0em; text-align: center; color: #fff;}
+.contenido h2 {margin: 2.5em 0em 1em 0em;text-align: center; color: #fff;}
 .programtitle {margin-bottom: 1.2em;}
 
-.maintext {margin-bottom: 10em; padding-left: 2em; padding-right: 2em;}
+.maintext {margin-bottom: 10em; padding-left: 2em; padding-right: 2em; color: #efefef;}
 
 
 
