@@ -42,9 +42,6 @@ body {background-image: url(../imagenes/fondo.png);
 	100% {margin-left: -100%;}
 }
 
-
-
-
 .programa {text-align: center;
             color: #efefef}
 
@@ -57,7 +54,6 @@ body {background-image: url(../imagenes/fondo.png);
 .programtitle {margin-bottom: 1.2em;}
 
 .maintext {margin-bottom: 10em; padding-left: 2em; padding-right: 2em; color: #efefef;}
-
 
 
 .tituloconsultas {color: white; text-align: center; margin-top: 1em;}
@@ -203,9 +199,6 @@ body {background-image: url(../imagenes/fondo.png);
                         outline: 0;}
 
 
-
-
-
 .options {width: 30px; height: 30px;}
 
 .headerlogo {width: 150px; height: 70px;}
@@ -218,8 +211,7 @@ body {background-image: url(../imagenes/fondo.png);
 
 
 @media (max-width:768px) {
-        
-          
+              
 
             .contenido {text-align: center;
                   color: #efefef; 
