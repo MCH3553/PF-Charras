@@ -1,4 +1,4 @@
-* {margin: 0; padding: 0}
+* {margin: 0; padding: 0; font-family: 'Roboto', sans-serif}
 
 body {background-image: url(../imagenes/fondo.png);
       font-family: verdana}
@@ -43,20 +43,22 @@ body {background-image: url(../imagenes/fondo.png);
 }
 
 
-.maintext {margin: 0 0.7em 0 0.7em;}
 
-.contenido {text-align: center;
-            color: #efefef; 
-            margin-bottom: 300px; 
-            margin-top: 50px;}
 
-.contenido ol li:hover {color: aquamarine;}
+.programa {text-align: center;
+            color: #efefef}
 
-.contenido ol li {margin-top: 10px;}
+.programa ul li:hover {color: aquamarine;}
 
-.contenido h1 {margin-bottom: 1.5em}
+.programa ul li {margin-top: 0.5em; list-style: none;}
+.programa {margin: 2em 0em 10em 0em;}
+.contenido h1 {margin: 2em 0em 1em 0em;}
+.contenido h2 {margin: 2.5em 0em 1em 0em}
+.programtitle {margin-bottom: 1.2em;}
 
-.contenido p {margin-bottom: 0.7em; margin-top: 2em;}
+.maintext {margin-bottom: 10em; padding-left: 2em; padding-right: 2em;}
+
+
 
 .tituloconsultas {color: white; text-align: center; margin-top: 1em;}
 
@@ -207,6 +209,10 @@ body {background-image: url(../imagenes/fondo.png);
 .options {width: 30px; height: 30px;}
 
 .headerlogo {width: 150px; height: 70px;}
+
+.bs-accordion-active-bg {background-color: grey;}
+
+.tituloconsultas {margin-bottom: 30px;}
 
 
 @media (max-width:768px) {
