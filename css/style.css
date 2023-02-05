@@ -277,6 +277,14 @@ body {background-image: url(../imagenes/fondo.png);
 
  #footerwireframes {margin-top: 68em;}
 
+ .wireframes {
+      width: 100%; 
+      max-width: 750px;
+      min-width: 500px;
+      height: 768px; 
+      padding-top: 50px;
+      margin: auto;}
+
  
 }
 
