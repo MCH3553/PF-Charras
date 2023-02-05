@@ -201,7 +201,7 @@ body {background-image: url(../imagenes/fondo.png);
 
 .options {width: 30px; height: 30px;}
 
-.headerlogo {width: 150px; height: 70px;}
+.headerlogo {width: 150px; height: 70px; margin: auto;}
 
 .bs-accordion-active-bg {background-color: grey;}
 
@@ -280,7 +280,7 @@ body {background-image: url(../imagenes/fondo.png);
  .wireframes {
       width: 100%; 
       max-width: 750px;
-      min-width: 500px;
+      min-width: 400px;
       height: 768px; 
       padding-top: 50px;
       margin: auto;}
