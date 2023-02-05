@@ -100,17 +100,19 @@ body {background-image: url(../imagenes/fondo.png);
                                     margin-right: 10px;
                                     text-align: center}
 
-#footerconsultas { bottom: 1; margin-top: 18em !important;}
-#footerwireframes {margin-top: 250em;}
+#footerconsultas { bottom: 1; margin-top: 15.6em !important;}
+#footerwireframes {margin-top: 285em;}
 
 
 .wireframes {
-      width: 1366px; 
+      width: 100%; 
+      max-width: 1600px;
+      min-width: 500px;
       height: 768px; 
-      margin: auto;
-      padding-top: 50px}
+      padding-top: 50px;
+      margin: auto;}
 
-.wireframes img {margin-bottom: 2em}
+.wireframes img {margin-bottom: 2em; width: 100%;}
 
 
 .box h2 {text-align: center}
@@ -198,9 +200,6 @@ body {background-image: url(../imagenes/fondo.png);
                         outline: 0;}
 
 
-
-
-
 .options {width: 30px; height: 30px;}
 
 .headerlogo {width: 150px; height: 70px;}
@@ -210,6 +209,8 @@ body {background-image: url(../imagenes/fondo.png);
 .tituloconsultas {margin-bottom: 30px;}
 
 .contacto {text-align: center; margin: 1em 0em 1.5em 0em;}
+
+.consultasmod { padding: 0;}
 
 
 @media (max-width:768px) {   
@@ -232,8 +233,6 @@ body {background-image: url(../imagenes/fondo.png);
             width: 400px;
             justify-content: center;
             ; margin: auto}  
-            
-.wireframes img {width: 700px; height: 450px; margin: 1em}
 
       }
       
@@ -275,7 +274,8 @@ body {background-image: url(../imagenes/fondo.png);
                         75% {margin-left: -300%;}
                         100% {margin-left: -300%;}
  }
- 
+
+ #footerwireframes {margin-top: 68em;}
 
  
 }
