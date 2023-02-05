@@ -51,7 +51,7 @@ body {background-image: url(../imagenes/fondo.png);
 .programa ul li:hover {color: aquamarine;}
 
 .programa ul li {margin-top: 0.5em; list-style: none;}
-.programa {margin: 2em 0em 10em 0em;}
+.programtitle {margin-top: 1.5em;}
 .contenido h1 {margin: 2em 0em 1em 0em; text-align: center; color: #fff;}
 .contenido h2 {margin: 2.5em 0em 1em 0em;text-align: center; color: #fff;}
 .programtitle {margin-bottom: 1.2em;}
@@ -71,6 +71,7 @@ body {background-image: url(../imagenes/fondo.png);
 .piedepagina { width: 100%;
                background: black;
                position: absolute;
+               margin-top: 8em;
                bottom: 1}
 
 .piedepagina .grupo1 {color: white;
@@ -99,23 +100,17 @@ body {background-image: url(../imagenes/fondo.png);
                                     margin-right: 10px;
                                     text-align: center}
 
-#footerconsultas { width: 100%;
-      background: black;
-      position: absolute;
-      bottom: 0}
-
-#footercontacto {margin-top: 5em;}
+#footerconsultas { bottom: 1; margin-top: 18em !important;}
 #footerwireframes {margin-top: 250em;}
+
 
 .wireframes {
       width: 1366px; 
       height: 768px; 
-      display: block;
-      justify-content: center;
       margin: auto;
       padding-top: 50px}
 
-.wireframes img {margin-bottom: 3em}
+.wireframes img {margin-bottom: 2em}
 
 
 .box h2 {text-align: center}
@@ -217,9 +212,7 @@ body {background-image: url(../imagenes/fondo.png);
 .contacto {text-align: center; margin: 1em 0em 1.5em 0em;}
 
 
-@media (max-width:768px) {
-        
-          
+@media (max-width:768px) {   
 
             .contenido {text-align: center;
                   color: #efefef; 
@@ -240,9 +233,11 @@ body {background-image: url(../imagenes/fondo.png);
             justify-content: center;
             ; margin: auto}  
             
-.wireframes img {width: 700px; height: 450px; margin: 1em;}
-#footerwireframes {margin-top: 135em;}
+.wireframes img {width: 700px; height: 450px; margin: 1em}
+
       }
+      
+      .piedepagina {z-index: 1; bottom: 1;}
          
           @media (max-width:768px)  {
           
@@ -280,6 +275,9 @@ body {background-image: url(../imagenes/fondo.png);
                         75% {margin-left: -300%;}
                         100% {margin-left: -300%;}
  }
+ 
+
+ 
 }
 
 @media(min-width: 768px) {
