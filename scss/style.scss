@@ -35,6 +35,14 @@ body {background-image: url(../imagenes/fondo.png);
 
 .maintext {margin-bottom: 10em; padding-left: 2em; padding-right: 2em; @include textproperty($textcolorsecundario, 1.1em,none)}
 
+@for $i from 1 through 3 {
+      .desarrollo-web-#{$i} { font-size: 1em * $i; }
+    }
+
+    .desarrollo {margin: 0;}
+
+.desarrollo P {display: flex; justify-content: center; margin: auto; align-items: center; color: $textcolorsecundario; font-family:'DM Serif Display', serif;}
+
 
 .tituloconsultas {color: $textcolorprincipal; text-align: center; margin-top: 1em;}
 

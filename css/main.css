@@ -273,6 +273,26 @@ body {
   font-size: 1.1em;
   background-color: none; }
 
+.desarrollo-web-1 {
+  font-size: 1em; }
+
+.desarrollo-web-2 {
+  font-size: 2em; }
+
+.desarrollo-web-3 {
+  font-size: 3em; }
+
+.desarrollo {
+  margin: 0; }
+
+.desarrollo P {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  color: #efefef;
+  font-family: 'DM Serif Display', serif; }
+
 .tituloconsultas {
   color: #fff;
   text-align: center;
