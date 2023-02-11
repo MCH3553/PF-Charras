@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+.carrousel {
+  width: 100%;
+  height: 480px;
+  margin: none;
+  overflow: hidden; }
+
+.carrousel ul {
+  display: flex;
+  padding: 0;
+  width: 200%;
+  animation: slide 12s infinite  alternate ease-in-out; }
+
+.carrousel li {
+  width: 50%;
+  list-style: none; }
+
+.carrousel img {
+  width: 100%;
+  height: 480px; }
+
+@keyframes slide {
+  0% {
+    margin-left: 0; }
+  30% {
+    margin-left: 0; }
+  35% {
+    margin-left: -50%; }
+  65% {
+    margin-left: -50%; }
+  70% {
+    margin-left: -100%; }
+  100% {
+    margin-left: -100%; } }
+
+@media (max-width: 768px) {
+  .carrousel * {
+    width: 100%;
+    height: 400px;
+    margin: none;
+    overflow: hidden; }
+  .carrousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 17s infinite  alternate ease-in-out; }
+  .carrousel li {
+    width: 100%;
+    list-style: none; }
+  .carrousel img {
+    width: 100%;
+    height: 400px; }
+  @keyframes slide {
+    0% {
+      margin-left: 0; }
+    20% {
+      margin-left: 0; }
+    25% {
+      margin-left: -100%; }
+    45% {
+      margin-left: -100%; }
+    50% {
+      margin-left: -200%; }
+    70% {
+      margin-left: -200%; }
+    75% {
+      margin-left: -300%; }
+    100% {
+      margin-left: -300%; } } }
+
+.piedepagina {
+  width: 100%;
+  background: black;
+  position: absolute;
+  margin-top: 8em;
+  bottom: 1; }
+
+.piedepagina .grupo1 {
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  padding: 10px 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px; }
+
+.piedepagina .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.piedepagina .box figure img {
+  width: 200px; }
+
+.piedepagina .box p {
+  color: #efefef;
+  margin-bottom: 10px; }
+
+.piedepagina .redsocial a img {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 10px;
+  text-align: center; }
+
+.piedepagina .box h2 {
+  text-align: center; }
+
+.piedepagina .box p {
+  text-align: center;
+  margin-top: 0.7em; }
+
+.piedepagina .box .redsocial {
+  text-align: center;
+  margin-top: 0.7em; }
+
+.piedepagina .grupo2 {
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+  background-color: grey; }
+
+#footerconsultas {
+  bottom: 1;
+  margin-top: 15.6em; }
+
+#footerwireframes {
+  margin-top: 285em; }
+
+@media (max-width: 768px) {
+  .piedepagina .grupo1 {
+    color: #fff;
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 15px 0px; }
+  .piedepagina .grupo1 .box figure img {
+    width: 100px; } }
+
+@media (max-width: 1080px) {
+  #footerwireframes {
+    margin-top: 180em !important; } }
+
+.formulario {
+  background: rgba(10, 10, 10, 0.8);
+  color: #fff;
+  line-height: 1.6;
+  font-family: sans-serif;
+  padding: 0 1.5em;
+  margin-top: 25px; }
+
+.formulario .contacto {
+  text-align: center;
+  margin: 1em 0em 1.5em 0em; }
+
+.formulario .contact > * {
+  padding: 1em; }
+
+.formulario .contact {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.25); }
+
+.formulario .contactform form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.formulario label {
+  display: block; }
+
+.formulario button {
+  background-color: #82b8af;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+.formulario p {
+  margin: 0;
+  padding: 1em; }
+
+.formulario .block {
+  grid-column: 1 / 3; }
+
+.formulario button,
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #808080; }
+
+.formulario button {
+  background-color: #808080;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+.formulario button:hover,
+.formulario button:focus {
+  background-color: #82b8af;
+  color: #fff;
+  transition: background-color 0.7s ease-out;
+  outline: 0; }
+
+.formulario .contactinfo {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 0.7em;
+  margin-bottom: 3em; }
+
+.formulario ul li {
+  list-style: none; }
+
+.formulario h4, .formulario .contact-info ul, .formulario .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0; }
+
+@media (min-width: 768px) {
+  .contact {
+    display: grid;
+    grid-template-columns: 2fr 1fr; }
+  .contact > * {
+    padding: 1em; }
+  .contact-info h4, .contact-info ul, .contact-info p {
+    text-align: left; } }
+
+body {
+  background-image: url(../imagenes/fondo.png);
+  font-family: verdana; }
+
+#opciones {
+  display: none; }
+
+.programa {
+  text-align: center;
+  color: #efefef; }
+
+.programa ul li:hover {
+  color: aquamarine; }
+
+.programa ul li {
+  margin-top: 0.5em;
+  list-style: none; }
+
+.programtitle {
+  margin-top: 1.5em; }
+
+.contenido h1 {
+  margin: 2em 0em 1em 0em;
+  text-align: center;
+  color: #fff; }
+
+.contenido h2 {
+  margin: 2.5em 0em 1em 0em;
+  text-align: center;
+  color: #fff; }
+
+.programtitle {
+  margin-bottom: 1.2em; }
+
+.maintext {
+  margin-bottom: 10em;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: #efefef;
+  font-size: 1.1em;
+  background-color: none; }
+
+.tituloconsultas {
+  color: #fff;
+  text-align: center;
+  margin-top: 1em; }
+
+.destacado-con-cursor:hover {
+  color: red; }
+
+.wireframes {
+  width: 100%;
+  max-width: 1600px;
+  min-width: 500px;
+  height: 768px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  margin: auto; }
+
+.wireframes img {
+  margin-bottom: 2em;
+  width: 100%; }
+
+.options {
+  width: 30px;
+  height: 30px; }
+
+.headerlogo {
+  width: 150px;
+  height: 70px;
+  margin: auto; }
+
+.bs-accordion-active-bg {
+  background-color: grey; }
+
+.tituloconsultas {
+  margin-bottom: 30px; }
+
+.consultasmod {
+  padding: 0; }
+
+@media (max-width: 768px) {
+  .contenido {
+    text-align: center;
+    color: #efefef;
+    margin-bottom: 100px;
+    margin-top: 0px; }
+  .headerlogo {
+    color: #fff;
+    display: flex;
+    padding: 0px 0px;
+    height: 150px;
+    width: 400px;
+    justify-content: center;
+    margin: auto; } }
+
+@media (max-width: 768px) {
+  .wireframes {
+    width: 100%;
+    max-width: 750px;
+    min-width: 400px;
+    height: 768px;
+    padding-top: 50px;
+    margin: auto; } }

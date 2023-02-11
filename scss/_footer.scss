@@ -1,0 +1,72 @@
+$textcolorprincipal: #fff;
+$textcolorsecundario: #efefef;
+
+@mixin textproperty ($color, $size, $fondo) {
+
+    color: $color;
+    font-size: $size;
+    background-color: $fondo;
+  }
+    
+    
+    .piedepagina {
+
+& {width: 100%;
+    background: black;
+    position: absolute;
+    margin-top: 8em;
+    bottom: 1}
+
+
+.grupo1 {color: $textcolorprincipal;
+     width: 100%;
+     margin: auto;
+     padding: 10px 0px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 50px}
+
+ .box figure { width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center}
+
+  .box figure img {width: 200px}
+
+  .box p {color: $textcolorsecundario;
+                  margin-bottom: 10px}
+
+  .redsocial a img{ display:inline-block;
+                         width: 25px;
+                         height: 25px;
+                         line-height: 25px;
+                         margin-right: 10px;
+                         text-align: center}
+
+
+.box h2 {text-align: center}
+.box p {text-align: center; margin-top: 0.7em;}
+.box .redsocial {text-align: center; margin-top: 0.7em;}
+
+.grupo2 {text-align: center; @include textproperty ($textcolorprincipal, 1em, grey)}}
+
+#footerconsultas { bottom: 1; margin-top: 15.6em }
+#footerwireframes {margin-top: 285em;}
+
+
+@media (max-width:768px) {
+    
+    .piedepagina {
+
+    .grupo1 {color: $textcolorprincipal;
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 15px 0px;}
+
+   .grupo1 .box figure img {width: 100px}
+}
+
+}
+@media (max-width:1080px) {#footerwireframes {margin-top: 180em !important}}

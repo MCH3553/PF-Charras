@@ -1,0 +1,97 @@
+* {margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
+
+@import "carrousel";
+@import "footer";
+@import "contactform";
+
+$textcolorprincipal: #fff;
+$textcolorsecundario: #efefef;
+
+@mixin textproperty ($color, $size, $fondo) {
+
+      color: $color;
+      font-size: $size;
+      background-color: $fondo;
+    }
+    
+
+body {background-image: url(../imagenes/fondo.png);
+      font-family: verdana}
+    
+#opciones {display: none;}
+
+
+
+.programa {text-align: center;
+            color: $textcolorsecundario}
+.programa ul li:hover {color: aquamarine;}
+.programa ul li {margin-top: 0.5em; list-style: none;}
+.programtitle {margin-top: 1.5em;}
+
+.contenido h1 {margin: 2em 0em 1em 0em; text-align: center; color: $textcolorprincipal;}
+.contenido h2 {margin: 2.5em 0em 1em 0em;text-align: center; color: $textcolorprincipal;}
+
+.programtitle {margin-bottom: 1.2em;}
+
+.maintext {margin-bottom: 10em; padding-left: 2em; padding-right: 2em; @include textproperty($textcolorsecundario, 1.1em,none)}
+
+
+.tituloconsultas {color: $textcolorprincipal; text-align: center; margin-top: 1em;}
+
+
+.destacado-con-cursor:hover {color: red;}
+
+
+.wireframes {
+      width: 100%; 
+      max-width: 1600px;
+      min-width: 500px;
+      height: 768px; 
+      padding-top: 50px;
+      margin-bottom: 50px;
+      margin: auto}
+
+.wireframes img {margin-bottom: 2em; width: 100%;}
+
+
+.options {width: 30px; height: 30px;}
+
+.headerlogo {width: 150px; height: 70px; margin: auto;}
+
+.bs-accordion-active-bg {background-color: grey;}
+
+.tituloconsultas {margin-bottom: 30px;}
+
+
+.consultasmod { padding: 0;}
+
+
+@media (max-width:768px) {   
+
+            .contenido {text-align: center;
+                  color: $textcolorsecundario; 
+                  margin-bottom: 100px; 
+                  margin-top: 0px;}
+
+
+          .headerlogo { color: $textcolorprincipal;
+            display: flex;
+            padding: 0px 0px; 
+            height: 150px;
+            width: 400px;
+            justify-content: center;
+            ; margin: auto}  
+
+      }
+          
+          @media (max-width:768px)  { 
+
+    .wireframes {
+      width: 100%; 
+      max-width: 750px;
+      min-width: 400px;
+      height: 768px; 
+      padding-top: 50px;
+      margin: auto;}
+}
+
