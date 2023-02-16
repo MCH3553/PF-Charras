@@ -95,5 +95,17 @@ $textcolorsecundario: #808080;
                         
                         .contact-info{ h4,ul,p {
                             text-align: left}
-                        }}
+                        }
                     
+                    }
+
+                    @media(max-width: 768px) {
+
+                        .formulario {padding: 0 10px; display: grid;}
+
+                        .contactform form{
+                            display: flex;
+                            grid-template-columns: none}
+                    }
+                    
+             

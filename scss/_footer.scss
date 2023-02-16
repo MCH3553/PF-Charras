@@ -52,7 +52,7 @@ $textcolorsecundario: #efefef;
 .grupo2 {text-align: center; @include textproperty ($textcolorprincipal, 1em, grey)}}
 
 #footerconsultas { bottom: 1; margin-top: 15.6em }
-#footerwireframes {margin-top: 285em;}
+
 
 
 @media (max-width:768px) {
@@ -69,4 +69,3 @@ $textcolorsecundario: #efefef;
 }
 
 }
-@media (max-width:1080px) {#footerwireframes {margin-top: 115em}}

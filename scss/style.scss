@@ -35,10 +35,6 @@ body {background-image: url(../imagenes/fondo.png);
 
 .maintext {margin-bottom: 10em; padding-left: 2em; padding-right: 2em; @include textproperty($textcolorsecundario, 1.1em,none)}
 
-@for $i from 1 through 3 {
-      .desarrollo-web-#{$i} { font-size: 1em * $i; }
-    }
-
     .desarrollo {margin: 0;}
 
 .desarrollo P {display: flex; justify-content: center; margin: auto; align-items: center; color: $textcolorsecundario; font-family:'DM Serif Display', serif;}
@@ -54,7 +50,7 @@ body {background-image: url(../imagenes/fondo.png);
       width: 100%; 
       max-width: 1600px;
       min-width: 500px;
-      height: 768px; 
+      
       padding-top: 50px;
       margin-bottom: 50px;
       margin: auto}
@@ -92,14 +88,4 @@ body {background-image: url(../imagenes/fondo.png);
 
       }
           
-          @media (max-width:1080px)  { 
-
-    .wireframes {
-      width: 100%; 
-      max-width: 750px;
-      min-width: 400px;
-      height: 768px; 
-      padding-top: 50px;
-      margin: auto;}
-}
 

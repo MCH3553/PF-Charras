@@ -131,9 +131,6 @@
   bottom: 1;
   margin-top: 15.6em; }
 
-#footerwireframes {
-  margin-top: 285em; }
-
 @media (max-width: 768px) {
   .piedepagina .grupo1 {
     color: #fff;
@@ -143,10 +140,6 @@
     padding: 15px 0px; }
   .piedepagina .grupo1 .box figure img {
     width: 100px; } }
-
-@media (max-width: 1080px) {
-  #footerwireframes {
-    margin-top: 115em; } }
 
 .formulario {
   background: rgba(10, 10, 10, 0.8);
@@ -231,6 +224,14 @@
   .contact-info h4, .contact-info ul, .contact-info p {
     text-align: left; } }
 
+@media (max-width: 768px) {
+  .formulario {
+    padding: 0 10px;
+    display: grid; }
+  .contactform form {
+    display: flex;
+    grid-template-columns: none; } }
+
 body {
   background-image: url(../imagenes/fondo.png);
   font-family: verdana; }
@@ -273,15 +274,6 @@ body {
   font-size: 1.1em;
   background-color: none; }
 
-.desarrollo-web-1 {
-  font-size: 1em; }
-
-.desarrollo-web-2 {
-  font-size: 2em; }
-
-.desarrollo-web-3 {
-  font-size: 3em; }
-
 .desarrollo {
   margin: 0; }
 
@@ -305,7 +297,6 @@ body {
   width: 100%;
   max-width: 1600px;
   min-width: 500px;
-  height: 768px;
   padding-top: 50px;
   margin-bottom: 50px;
   margin: auto; }
@@ -345,13 +336,4 @@ body {
     height: 150px;
     width: 400px;
     justify-content: center;
-    margin: auto; } }
-
-@media (max-width: 1080px) {
-  .wireframes {
-    width: 100%;
-    max-width: 750px;
-    min-width: 400px;
-    height: 768px;
-    padding-top: 50px;
     margin: auto; } }
