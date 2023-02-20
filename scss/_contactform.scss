@@ -101,11 +101,7 @@ $textcolorsecundario: #808080;
 
                     @media(max-width: 768px) {
 
-                        .formulario {padding: 0 10px; display: grid;}
-
-                        .contactform form{
-                            display: flex;
-                            grid-template-columns: none}
+                        .formulario {padding: 0 10px}
                     }
                     
              

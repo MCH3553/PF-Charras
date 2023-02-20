@@ -28,7 +28,7 @@ body {background-image: url(../imagenes/fondo.png);
 .programa ul li {margin-top: 0.5em; list-style: none;}
 .programtitle {margin-top: 1.5em;}
 
-.contenido h1 {margin: 2em 0em 1em 0em; text-align: center; color: $textcolorprincipal;}
+.contenido h1 {margin-bottom: 1em; text-align: center; color: $textcolorprincipal;}
 .contenido h2 {margin: 2.5em 0em 1em 0em;text-align: center; color: $textcolorprincipal;}
 
 .programtitle {margin-bottom: 1.2em;}
@@ -50,9 +50,7 @@ body {background-image: url(../imagenes/fondo.png);
       width: 100%; 
       max-width: 1600px;
       min-width: 500px;
-      
       padding-top: 50px;
-      margin-bottom: 50px;
       margin: auto}
 
 .wireframes img {margin-bottom: 2em; width: 100%;}
