@@ -19,9 +19,7 @@ $textcolorsecundario: #808080;
         box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.25);
     }
 
-    .contactform form{
-          display: grid;
-          grid-template-columns: 1fr 1fr}
+    
     
           label {
                 display: block;
@@ -81,7 +79,6 @@ $textcolorsecundario: #808080;
                 text-align: center;
                 margin: 0 0 1rem 0;}}
             
-
                       
             @media(min-width: 768px) {
                         
@@ -96,12 +93,14 @@ $textcolorsecundario: #808080;
                         .contact-info{ h4,ul,p {
                             text-align: left}
                         }
-                    
+                        .contactform form{
+                            display: grid;
+                            grid-template-columns: 1fr 1fr}
                     }
 
-                    @media(max-width: 768px) {
+                    @media(max-width: 1080px) {
 
-                        .formulario {padding: 0 10px}
+                        .formulario {padding: 0 10px}                    
                     }
                     
              

@@ -159,10 +159,6 @@
 .formulario .contact {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.25); }
 
-.formulario .contactform form {
-  display: grid;
-  grid-template-columns: 1fr 1fr; }
-
 .formulario label {
   display: block; }
 
@@ -222,9 +218,12 @@
   .contact > * {
     padding: 1em; }
   .contact-info h4, .contact-info ul, .contact-info p {
-    text-align: left; } }
+    text-align: left; }
+  .contactform form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .formulario {
     padding: 0 10px; } }
 
@@ -317,6 +316,10 @@ body {
 
 .consultasmod {
   padding: 0; }
+
+.accordion-button:not(.collapsed) {
+  color: #efefef;
+  background-color: gray; }
 
 @media (max-width: 768px) {
   .contenido {
