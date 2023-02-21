@@ -211,7 +211,7 @@
 .formulario ul li {
   list-style: none; }
 
-.formulario h4, .formulario .contact-info ul, .formulario .contact-info p {
+.formulario h2, .formulario .contact-info ul, .formulario .contact-info p {
   text-align: center;
   margin: 0 0 1rem 0; }
 
