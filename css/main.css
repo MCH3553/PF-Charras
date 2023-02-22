@@ -326,7 +326,7 @@ body {
 
 .wireframes {
   width: 100%;
-  max-width: 90%;
+  max-width: 85%;
   padding-top: 50px;
   margin: auto; }
 
@@ -334,13 +334,16 @@ body {
   margin-bottom: 2em;
   width: 100%; }
 
+.navbar-brand {
+  margin: 0; }
+
 .options {
   width: 30px;
   height: 30px; }
 
 .headerlogo {
   width: 150px;
-  height: 70px;
+  height: auto;
   margin: auto; }
 
 .bs-accordion-active-bg {
@@ -381,24 +384,21 @@ body {
     color: #fff;
     display: flex;
     padding: 0px 0px;
-    height: 150px;
-    width: 400px;
+    height: auto;
+    width: 200px;
     justify-content: center; }
   .clases li {
     width: 92%; } }
 
-@media only screen and (min-width: 536px) and (max-width: 991px) {
+@media only screen and (min-width: 340px) and (max-width: 991px) {
   .navbar-brand {
     margin-right: 56px; } }
 
-@media only screen and (min-width: 496px) and (max-width: 535px) {
-  .navbar-brand {
-    margin-left: 11px; } }
+@media only screen and (min-width: 340px) and (max-width: 1366px) {
+  .wireframes {
+    width: 100%;
+    max-width: 95%; } }
 
 @media (max-width: 990px) {
   .contenido h1 {
     margin: 1em 0 1em 0; } }
-
-@media (max-width: 400px) {
-  .navbar-brand {
-    margin: 0; } }
