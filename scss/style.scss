@@ -44,9 +44,6 @@ body {background-image: url(../imagenes/fondo.png);
 .tituloconsultas {color: $textcolorprincipal; text-align: center; margin-top: 1em;}
 
 
-.destacado-con-cursor:hover {color: red;}
-
-
 .wireframes {
       width: 100%; 
       max-width: 85%;
@@ -106,7 +103,7 @@ body {background-image: url(../imagenes/fondo.png);
                                                      width: 100%; 
                                                      max-width: 95%}}
       
-                                                     @media (max-width:990px) {.contenido h1 {margin: 1em 0 1em 0}
+       @media (max-width:990px) {.contenido h1 {margin: 1em 0 1em 0}
       }
      
       
