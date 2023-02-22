@@ -13,6 +13,7 @@
   display: flex;
   padding: 0;
   width: 200%;
+  margin-bottom: 0;
   animation: slide 12s infinite  alternate ease-in-out; }
 
 .carrousel li {
@@ -276,7 +277,7 @@ body {
 .programa ul li:hover {
   color: aquamarine; }
 
-.programa ul li {
+.programa li {
   margin-top: 0.5em;
   list-style: none; }
 
@@ -366,7 +367,8 @@ body {
   border-radius: 15px;
   border: 2px solid white;
   text-align: center;
-  margin: auto !important;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 10px; }
 
 @media (max-width: 768px) {
@@ -393,3 +395,11 @@ body {
 @media only screen and (min-width: 496px) and (max-width: 535px) {
   .navbar-brand {
     margin-left: 11px; } }
+
+@media (max-width: 990px) {
+  .contenido h1 {
+    margin: 1em 0 1em 0; } }
+
+@media (max-width: 400px) {
+  .navbar-brand {
+    margin: 0; } }

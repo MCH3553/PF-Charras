@@ -26,7 +26,7 @@ body {background-image: url(../imagenes/fondo.png);
 .programa {text-align: center;
             color: $textcolorsecundario}
 .programa ul li:hover {color: aquamarine;}
-.programa ul li {margin-top: 0.5em; list-style: none;}
+.programa li {margin-top: 0.5em; list-style: none;}
 .programtitle {margin-top: 1.5em;}
 
 .contenido h1 {margin-bottom: 1em; text-align: center; color: $textcolorprincipal;}
@@ -36,7 +36,7 @@ body {background-image: url(../imagenes/fondo.png);
 
 .maintext {padding-left: 2em; padding-right: 2em; @include textproperty($textcolorsecundario, 1.1em,none)}
 
-    .desarrollo {margin: 0;}
+.desarrollo {margin: 0;}
 
 .desarrollo P {display: flex; justify-content: center; margin: auto; align-items: center; color: $textcolorsecundario; font-family:'DM Serif Display', serif;}
 
@@ -68,13 +68,14 @@ body {background-image: url(../imagenes/fondo.png);
 
 .consultasmod { padding: 0;}
 
+
 .accordion-button:not(.collapsed) {
       color: #efefef;
       background-color: rgb(128, 128, 128)}
 
 
 .programa ul {padding-left: 0;}
-      .clases li {width: 700px; height: 50px; background-color: grey; border-radius: 15px; border: 2px solid white; text-align: center; margin: auto !important; padding-top: 10px;}
+      .clases li {width: 700px; height: 50px; background-color: grey; border-radius: 15px; border: 2px solid white; text-align: center; margin-left: auto; margin-right: auto; padding-top: 10px;}
 
 
 @media (max-width:768px) {   
@@ -100,5 +101,6 @@ body {background-image: url(../imagenes/fondo.png);
 
       @media only screen and (min-width: 536px) and (max-width: 991px) {.navbar-brand {margin-right: 56px;}}
       @media only screen and (min-width: 496px) and (max-width: 535px) {.navbar-brand {margin-left: 11px;}}
-      
+      @media (max-width:990px) {.contenido h1 {margin: 1em 0 1em 0}}
+      @media (max-width:400px) {.navbar-brand {margin:0}}
       
