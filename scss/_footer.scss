@@ -51,8 +51,7 @@ $textcolorsecundario: #efefef;
 
 .grupo2 {text-align: center; @include textproperty ($textcolorprincipal, 1em, grey)}}
 
-#footerconsultas { bottom: 1; margin-top: 15.6em }
-
+#footerconsultas { bottom: 1; margin-top: 19.7em;}
 
 
 @media (max-width:768px) {
@@ -68,4 +67,5 @@ $textcolorsecundario: #efefef;
    .grupo1 .box figure img {width: 100px}
 }
 
+#footerconsultas { margin-top: 9.3em;}
 }

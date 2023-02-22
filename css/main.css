@@ -165,7 +165,7 @@
 
 #footerconsultas {
   bottom: 1;
-  margin-top: 15.6em; }
+  margin-top: 19.7em; }
 
 @media (max-width: 768px) {
   .piedepagina .grupo1 {
@@ -175,7 +175,9 @@
     grid-gap: 30px;
     padding: 15px 0px; }
   .piedepagina .grupo1 .box figure img {
-    width: 100px; } }
+    width: 100px; }
+  #footerconsultas {
+    margin-top: 9.3em; } }
 
 .formulario {
   background: rgba(10, 10, 10, 0.8);
