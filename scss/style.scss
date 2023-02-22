@@ -30,11 +30,11 @@ body {background-image: url(../imagenes/fondo.png);
 .programtitle {margin-top: 1.5em;}
 
 .contenido h1 {margin-bottom: 1em; text-align: center; color: $textcolorprincipal;}
-.contenido h2 {margin: 2.5em 0em 1em 0em;text-align: center; color: $textcolorprincipal;}
+.contenido h2 {margin: 2em 0em 1em 0em;text-align: center; color: $textcolorprincipal;}
 
-.programtitle {margin-bottom: 1.2em;}
+.programtitle {margin-bottom: 1.2em; font-size: 2em;}
 
-.maintext {margin-bottom: 10em; padding-left: 2em; padding-right: 2em; @include textproperty($textcolorsecundario, 1.1em,none)}
+.maintext {padding-left: 2em; padding-right: 2em; @include textproperty($textcolorsecundario, 1.1em,none)}
 
     .desarrollo {margin: 0;}
 
@@ -72,12 +72,18 @@ body {background-image: url(../imagenes/fondo.png);
       color: #efefef;
       background-color: rgb(128, 128, 128)}
 
+
+.programa ul {padding-left: 0;}
+      .clases li {width: 700px; height: 50px; background-color: grey; border-radius: 15px; border: 2px solid white; text-align: center; margin: auto !important; padding-top: 10px;}
+
+
 @media (max-width:768px) {   
 
             .contenido {text-align: center;
                   color: $textcolorsecundario; 
                   margin-bottom: 100px; 
-                  margin-top: 0px;}
+                  margin-top: 0px;
+                  margin: auto;}
 
 
           .headerlogo { color: $textcolorprincipal;
@@ -86,8 +92,13 @@ body {background-image: url(../imagenes/fondo.png);
             height: 150px;
             width: 400px;
             justify-content: center;
-            ; margin: auto}  
+            ; }  
 
+            .clases li {width: 92%}
       }
           
 
+      @media only screen and (min-width: 536px) and (max-width: 991px) {.navbar-brand {margin-right: 56px;}}
+      @media only screen and (min-width: 496px) and (max-width: 535px) {.navbar-brand {margin-left: 11px;}}
+      
+      

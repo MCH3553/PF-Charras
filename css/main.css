@@ -289,15 +289,15 @@ body {
   color: #fff; }
 
 .contenido h2 {
-  margin: 2.5em 0em 1em 0em;
+  margin: 2em 0em 1em 0em;
   text-align: center;
   color: #fff; }
 
 .programtitle {
-  margin-bottom: 1.2em; }
+  margin-bottom: 1.2em;
+  font-size: 2em; }
 
 .maintext {
-  margin-bottom: 10em;
   padding-left: 2em;
   padding-right: 2em;
   color: #efefef;
@@ -356,17 +356,40 @@ body {
   color: #efefef;
   background-color: gray; }
 
+.programa ul {
+  padding-left: 0; }
+
+.clases li {
+  width: 700px;
+  height: 50px;
+  background-color: grey;
+  border-radius: 15px;
+  border: 2px solid white;
+  text-align: center;
+  margin: auto !important;
+  padding-top: 10px; }
+
 @media (max-width: 768px) {
   .contenido {
     text-align: center;
     color: #efefef;
     margin-bottom: 100px;
-    margin-top: 0px; }
+    margin-top: 0px;
+    margin: auto; }
   .headerlogo {
     color: #fff;
     display: flex;
     padding: 0px 0px;
     height: 150px;
     width: 400px;
-    justify-content: center;
-    margin: auto; } }
+    justify-content: center; }
+  .clases li {
+    width: 92%; } }
+
+@media only screen and (min-width: 536px) and (max-width: 991px) {
+  .navbar-brand {
+    margin-right: 56px; } }
+
+@media only screen and (min-width: 496px) and (max-width: 535px) {
+  .navbar-brand {
+    margin-left: 11px; } }
