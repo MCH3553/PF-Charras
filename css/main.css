@@ -370,7 +370,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px; }
+  padding: 10px; }
 
 @media (max-width: 768px) {
   .contenido {
@@ -388,6 +388,10 @@ body {
     justify-content: center; }
   .clases li {
     width: 92%; } }
+
+@media (max-width: 385px) {
+  .clases li {
+    padding-top: 0px; } }
 
 @media only screen and (min-width: 340px) and (max-width: 991px) {
   .navbar-brand {
